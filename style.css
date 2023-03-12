@@ -1,4 +1,26 @@
-/* The Magic */
+body {
+  background: #f8f2f2;
+  cursor: pointer;
+}
+
+.accordion, .accordion-main {
+    padding: 0;
+    margin: 0 auto;
+    width: 98.3%;
+    font-family: "Arial" sans-serif;
+}
+
+.accordion .accordion-item {
+  border-bottom: 1px solid #666;
+  padding: 1em;
+  color: #180b0b;
+}
+
+.accordion h1 {
+  margin: 0;
+}
+
+
 .accordion:hover .accordion-item:hover .accordion-item-content,
 .accordion .accordion-item--default .accordion-item-content {
     height: 20em;
@@ -18,25 +40,3 @@
     text-align: center;
 }
 
-/* Aesthetic */
-body {
-  background: #f8f2f2;
-  cursor: pointer;
-}
-
-.accordion, .accordion-main {
-    padding: 0;
-    margin: 0 auto;
-    width: 98.3%;
-    font-family: "Arial" sans-serif
-}
-
-.accordion .accordion-item {
-  border-bottom: 1px solid #666;
-  padding: 1em;
-  color: #180b0b;
-}
-
-.accordion h1 {
-  margin: 0;
-}
