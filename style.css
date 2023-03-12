@@ -15,6 +15,7 @@
     overflow: hidden;
     transition: height .8s;
     margin-top: 1em;
+    text-align: center;
 }
 
 /* Aesthetic */
